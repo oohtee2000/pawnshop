@@ -20,7 +20,7 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <div className="hidden lg:flex items-center space-x-6">
-          <Link href="/" className="text-sm text-gray-700 hover:text-blue-600 transition">Home</Link>
+          <Link href="/home" className="text-sm text-gray-700 hover:text-blue-600 transition">Home</Link>
           <Link href="/about" className="text-sm text-gray-700 hover:text-blue-600 transition">About Us</Link>
           <Link href="/services" className="text-sm text-gray-700 hover:text-blue-600 transition">Services</Link>
           <Link href="/pricing" className="text-sm text-gray-700 hover:text-blue-600 transition">Pricing</Link>

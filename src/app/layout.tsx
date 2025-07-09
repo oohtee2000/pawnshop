@@ -1,4 +1,4 @@
-// Removed unused Navbar import
+    // Removed unused Navbar import
 import './globals.css';
 import { ReactNode } from 'react';
 
