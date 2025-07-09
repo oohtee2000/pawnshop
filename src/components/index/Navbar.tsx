@@ -29,8 +29,8 @@ const Navbar = () => {
 
         {/* Desktop Buttons */}
         <div className="hidden lg:flex space-x-3">
-          <Link href="/signin" className="py-2 px-4 bg-gray-100 hover:bg-gray-200 text-sm font-semibold rounded-xl transition">Sign In</Link>
-          <Link href="/signup" className="py-2 px-4 bg-blue-500 hover:bg-blue-600 text-sm text-white font-semibold rounded-xl transition">Sign Up</Link>
+          <Link href="/auth/login" className="py-2 px-4 bg-gray-100 hover:bg-gray-200 text-sm font-semibold rounded-xl transition">Sign In</Link>
+          <Link href="/auth/signup" className="py-2 px-4 bg-blue-500 hover:bg-blue-600 text-sm text-white font-semibold rounded-xl transition">Sign Up</Link>
         </div>
 
         {/* Hamburger Menu */}
